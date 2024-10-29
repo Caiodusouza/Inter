@@ -1,0 +1,108 @@
+body {
+  background-color: #EEF5DB;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.app {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login {
+  color: #2d9cdb;
+}
+
+.main-content {
+  background: linear-gradient(to bottom, #e0f7fa, #e1e8f0);
+  padding: 2rem;
+  height: 50vh;
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1976d2;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #666;
+  font-size: 1.1rem;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+}
+
+.btn-saiba-mais {
+  padding: 0.8rem 1.5rem;
+  color: white;
+  background-color: #1976d2;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-saiba-mais:hover {
+  background-color: #135ba1;
+}
+
+.image-background {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto 0;
+  margin-right: 600vh;
+  margin-top: -8.6vh;
+  margin-left: 30vh;
+}
+
+.character-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.how-it-works-section {
+  background-color: #EEF5DB;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2rem auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #a43aff;
+  font-size: 2rem;
+  margin-bottom: 1rem;/* Aumenta o tamanho do título */
+  font-weight: bold;
+
+}
+
+.section-description {
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px; /* Limita a largura do texto para facilitar a leitura */
+  margin: 0 auto;
+}
